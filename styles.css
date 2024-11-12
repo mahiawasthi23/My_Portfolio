@@ -1,11 +1,11 @@
-/* General Styles */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  padding-top: 70px; /* Add space for the fixed header */
-  background-color: #f4f7f6; /* Light gray background for a clean look */
+  padding-top: 70px; 
+  background-color: #f4f7f6;
 }
 
 a {
@@ -20,27 +20,27 @@ h2, p, button {
 
 h2 {
   font-size: 2rem;
-  color: #2c3e50; /* Dark blue-gray */
+  color: #2c3e50; 
   margin-bottom: 1rem;
 }
 
 p {
   font-size: 1.125rem;
-  color: #7f8c8d; /* Soft gray for readability */
+  color: #7f8c8d; 
   line-height: 1.6;
   margin-bottom: 1.5rem;
 }
 
-/* Navbar Styles */
+
 header {
-  background-color: #34495e; /* Dark gray-blue for a professional feel */
+  background-color: #34495e; 
   color: white;
   padding: 1rem;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000; /* Ensures the header stays on top of other elements */
+  z-index: 1000; 
 }
 
 nav {
@@ -55,7 +55,7 @@ nav {
 }
 
 .nav-name span {
-  color: #e74c3c; /* Red accent for contrast */
+  color: #e74c3c; 
 }
 
 .nav-menu ul {
@@ -69,7 +69,7 @@ nav {
 }
 
 .nav-menu a:hover {
-  background-color: #2980b9; /* Light blue on hover */
+  background-color: #2980b9; 
   border-radius: 4px;
 }
 
@@ -79,7 +79,7 @@ nav {
   cursor: pointer;
 }
 
-/* Mobile View */
+
 @media (max-width: 768px) {
   .nav-menu {
     display: none;
@@ -99,13 +99,13 @@ nav {
   }
 }
 
-/* General Scroll Behavior */
+
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 70px; /* Ensures sections are not hidden under the fixed header */
+  scroll-padding-top: 70px; 
 }
 
-/* Home Section */
+
 #home {
   display: flex;
   flex-direction: row;
@@ -113,8 +113,8 @@ html {
   justify-content: space-between;
   padding: 2rem;
   padding-bottom: 5rem;
-  background-color: #ecf0f1; /* Light gray-blue */
-  padding-top: 70px; /* Prevents section from being hidden under the fixed navbar */
+  background-color: #ecf0f1; 
+  padding-top: 70px; 
 }
 
 #home-text {
@@ -132,7 +132,7 @@ html {
   width: 30px;
   height: 30px;
   font-size: 2rem;
-  color: #7f8c8d; /* Gray color for icons */
+  color: #7f8c8d; 
 }
 
 #code {
@@ -141,7 +141,7 @@ html {
 }
 
 .icon a:hover i {
-  color: #3498db; /* Blue on hover */
+  color: #3498db; 
 }
 
 .btn {
@@ -150,7 +150,7 @@ html {
 }
 
 .btn button {
-  background-color: #3498db; /* Blue button color */
+  background-color: #3498db; 
   border: none;
   color: white;
   padding: 0.75rem 1.5rem;
@@ -161,7 +161,7 @@ html {
 }
 
 .btn button:hover {
-  background-color: #2980b9; /* Darker blue on hover */
+  background-color: #2980b9; 
   transform: scale(1.05);
 }
 
@@ -176,7 +176,7 @@ html {
   height: 70%;
   border-radius: 50%;
   padding: 5px;
-  background: linear-gradient(10deg, #2c3e50, #7f8c8d); /* Gradient effect */
+  background: linear-gradient(10deg, #2c3e50, #7f8c8d); 
 }
 
 img:hover {
@@ -200,29 +200,6 @@ img:hover {
   }
 }
 
-/* About Section */
-/* #about {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding: 20px;
-  background-color: #f9f9f9; 
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding-top: 70px; 
-  flex-direction: column;
-}
-
-.about {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-
-  background-color: #f9f9f9; 
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  
-} */
 
 #about img {
   border-radius: 50%;
@@ -230,19 +207,7 @@ img:hover {
   background: linear-gradient(#ff6347, #ffb6b9); 
 }
 
-/* #about .content {
-  max-width: 50%;
-} */
 
-/* #about h2 {
-  margin-bottom: 15px;
-  color: #2c3e50; 
-} */
-
-/* #about p {
-  color: #7f8c8d; 
-  line-height: 1.6;
-}  */
 
 #about-section{
   padding: 6rem 2rem;
@@ -257,44 +222,12 @@ img:hover {
   padding: 0.2rem;
 }
 
-/* .img-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 300px; 
-  width: 300px; 
-  overflow: hidden;
-  border-radius: 50%;
-  margin: 0 auto; 
-  border: 5px solid blue;
-  outline: 3px solid black;
-} */
+
 
 .hi {
   font-size: 2rem;
 }
 
-/* .img-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-} */
-
-/* .resume {
-  padding: 0.5rem 1rem;
-  font-size: 1rem;
-  margin-top: 1rem;
-  border-radius: 10px;
-  background-color: rgb(0, 166, 255);
-  color: white;
-  border: none;
-  box-shadow: 10px 0 10px rgb(136, 136, 248);
-  cursor: pointer;
-} */
-
-/* .resume:focus {
-  background-color: green;
-} */
 
 #about {
   display: flex;
@@ -309,13 +242,13 @@ img:hover {
   border-radius: 15px;
 }
 
-/* Skills Section */
+
 .skills-section {
-  background-color: #f4f7f6; /* Light background */
+  background-color: #f4f7f6; 
   padding: 4rem 2rem;
   text-align: center;
   margin: 2rem;
-  padding-top: 70px; /* Prevents section from being hidden under the fixed navbar */
+  padding-top: 70px;
 }
 
 .skills-grid {
@@ -325,7 +258,7 @@ img:hover {
 }
 
 .skill {
-  background-color: #ffffff; /* White background for skills */
+  background-color: #ffffff; 
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 10px;
@@ -333,19 +266,19 @@ img:hover {
 }
 
 .skill h3 {
-  border-bottom: 2px solid #2980b9; /* Blue underline */
+  border-bottom: 2px solid #2980b9; 
   margin-bottom: 1rem;
   font-family: 'Courier';
   font-style: italic;
   color: #2c3e50;
 }
 
-/* Projects Section */
+
 .projects-section {
-  background-color: #f9f9f9; /* Soft background */
+  background-color: #f9f9f9; 
   padding: 4rem 2rem;
   text-align: center;
-  padding-top: 70px; /* Prevents section from being hidden under the fixed navbar */
+  padding-top: 70px; 
 }
 
 .projects-grid {
@@ -380,7 +313,7 @@ img:hover {
 .project .btn {
   margin-top: 10px;
   padding: 10px 20px;
-  background-color: #3498db; /* Blue */
+  background-color: #3498db; 
   color: white;
   border: none;
   text-decoration: none;
@@ -389,17 +322,17 @@ img:hover {
 }
 
 .project .btn:hover {
-  background-color: #2980b9; /* Darker blue on hover */
+  background-color: #2980b9; 
 }
 
-/* Contact Section */
+
 #contact-section {
-  background-color: #ecf0f1; /* Light gray-blue */
+  background-color: #ecf0f1;
   padding: 40px;
   margin: 40px 40px 0;
   text-align: center;
   border-radius: 10px;
-  padding-top: 70px; /* Prevents section from being hidden under the fixed navbar */
+  padding-top: 70px; 
 }
 
 #contact-section h2 {
@@ -460,9 +393,9 @@ img:hover {
   color: #2c3e50;
 }
 
-/* Footer Styles */
+
 footer {
-  background-color: #34495e; /* Dark gray-blue */
+  background-color: #34495e; 
   color: #fff;
   display: flex;
   text-align: center;
