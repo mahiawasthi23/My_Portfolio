@@ -1,4 +1,5 @@
-Mahima Awasthi - Portfolio
+                                                               Mahima Awasthi - Portfolio
+
 Welcome to my personal portfolio website! I am Mahima Awasthi, a passionate front-end developer with a focus on creating interactive, user-friendly websites. Below is the description of the technologies used and details about my portfolio.
 
 Table of Contents
@@ -31,7 +32,7 @@ Live Projects: Click to view the projects that I’ve worked on.
 Downloadable Resume: A button to download my resume directly from Google Drive.
 How to Run
 Clone this repository to your local machine:
-git clone https://github.com/mahiawasthi23/portfolio.git
+git clone https://github.com/mahiawasthi23/My_Portfolio.git
 Navigate into the project directory:
 cd portfolio
 Open the index.html file in your preferred browser.
