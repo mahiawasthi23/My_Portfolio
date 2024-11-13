@@ -31,7 +31,7 @@ Live Projects: Click to view the projects that I’ve worked on.
 Downloadable Resume: A button to download my resume directly from Google Drive.
 How to Run
 Clone this repository to your local machine:
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/mahiawasthi23/portfolio.git
 Navigate into the project directory:
 cd portfolio
 Open the index.html file in your preferred browser.
